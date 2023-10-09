@@ -1,0 +1,15 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background-color: red;
+}
+.LeftHeader{
+    display: flex;
+    align-items: center;
+}
+.RightHeader{
+    display: flex;
+    align-items: center;
+}
