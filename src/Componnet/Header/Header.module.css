@@ -1,15 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
 .Header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 50px;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 .LeftHeader{
     display: flex;
     align-items: center;
+    gap: 50px;
 }
 .RightHeader{
     display: flex;
     align-items: center;
+    gap: 40px;
+}
+.Logo{
+    background-color: #e67e22;
+    padding: 5px 7px;
+    border-radius: 15px;
+}
+.Logo:hover{
+    background-color: #d35400;
+}
+.Logo h1 {
+    font-family: 'Kanit', sans-serif;   
+    color: #fff;
+    font-size: 27px;
+    font-weight: 600;
+
+}
+.LeftHeader p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+}
+.active{
+    color: #d35400;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    padding: 5px;
+    border: 2px solid rgb(57, 61, 61);
+    border-radius: 5px 0px 0px 5px;
+    border-right: none;
+    /* display: none; */
+    outline: none;
+    font-size: 15px;
+    color: rgb(96, 102, 102);
+    height: 30px;
+}
+.search svg{
+    font-size: 30px;
+    background-color: rgb(120, 124, 124);
+    padding: 3px 5px ;
+    width: 40px;
+    height: 30px;
+    color: #fff;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.Signup {
+    display: flex;
+    align-items: flex-end;
+
+}
+.Signup svg{
+    font-size: 30px;
+    color: #000000 ;
+}
+.Signup span{
+    color: #000000;
+    font-weight: 500;
+}
+.Cart{
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+}
+.Cart svg{
+    font-size: 30px;
+    color: #000000;
+}
+.Cart span{
+    color: #e67e22;
+    font-size: 20px;
+    font-weight: 600;
 }
