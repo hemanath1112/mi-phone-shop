@@ -3,7 +3,7 @@ import classes from './Add.module.css'
 
 const AddPhone = () => {
   return (
-    <div>AddPhone</div>
+    <div className={classes.AddItem}>AddPhone</div>
   )
 }
 

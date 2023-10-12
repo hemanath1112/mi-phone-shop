@@ -3,7 +3,7 @@ import classes from './Add.module.css'
 
 const AddTv = () => {
   return (
-    <div>AddTv</div>
+    <div className={classes.AddItem}>AddTv</div>
   )
 }
 

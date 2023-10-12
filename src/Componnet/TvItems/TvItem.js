@@ -1,9 +1,9 @@
 import React from 'react'
-import classe from './TvItem.module.css'
+import classes from './TvItem.module.css'
 
 const TvItem = () => {
   return (
-    <div>TvItem</div>
+    <div className={classes.Tv}>TvItem</div>
   )
 }
 

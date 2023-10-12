@@ -25,7 +25,7 @@
     margin: 20px auto;
     padding: 20px;
     border: 2px solid black;
-    border-radius: 5px ;
+    border-radius: 15px ;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 .SignupItem h2{

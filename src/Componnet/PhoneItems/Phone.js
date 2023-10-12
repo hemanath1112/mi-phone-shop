@@ -1,9 +1,9 @@
 import React from 'react'
-import classe from './Phone.module.css'
+import classes from './Phone.module.css'
 
 const Phone = () => {
   return (
-    <div>Phone</div>
+    <div className={classes.Phones}>Phone</div>
   )
 }
 

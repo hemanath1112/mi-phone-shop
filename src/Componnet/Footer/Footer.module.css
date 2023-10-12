@@ -1,0 +1,97 @@
+.Footer{
+    background-color: rgb(19, 18, 18);
+    padding: 40px 30px;
+}
+.FooterItem{
+    /* color: #fff; */
+    display: flex;
+    justify-content: space-between;
+}
+.FooterContent h4{
+    font-weight: 500;
+    color: rgb(250, 253, 255);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.FooterContent p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: rgb(146, 145, 142);
+    transition: 0.2s ease;
+}
+.FooterContent p:hover{
+    text-decoration: underline;
+    color: #fff;
+    cursor: pointer;
+}
+.FooterFollows{
+    width: 400px;
+}
+.FooterFollows h4{
+    font-weight: 500;
+    color: rgb(250, 253, 255);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.FooterFollows .FooterSVG svg{
+    font-size: 35px;
+    margin-right: 20px;
+    padding: 1px;
+    border-radius: 10px;
+    color: #fff;  
+    transition: 0.2s ease;
+    margin-bottom: 20px;
+}
+.FooterFollows .FooterSVG svg:hover{
+    color: rgb(146, 145, 142);
+    cursor: pointer;
+}
+.FooterFollows input{
+    height: 40px;
+    padding: 10px;
+    background: transparent;
+    border: 2px solid rgb(207, 204, 204);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    width: 80%;
+}
+.FooterStore{
+    width: 80%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid rgb(163, 161, 161);
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.FooterStore svg{
+    margin-right: 10px;
+    font-size: 40px;
+}
+.FooterEnd{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-top: 2px solid #fff ;
+    padding-top: 20px;
+}
+.CopyRights{
+    display: flex;
+    color: #fff;
+
+}
+.CopyRights p{
+    margin-right: 20px;
+}
+.CopyRights p span{
+    color: #e67e22;
+}

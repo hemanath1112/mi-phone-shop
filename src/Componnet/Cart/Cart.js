@@ -3,8 +3,8 @@ import classes from './Cart.module.css'
 
 const Cart = () => {
   return (
-    <div>Cart
-      <p>hiiiiiiiii</p>
+    <div className={classes.Cart}>Cart
+      
     </div>
     
   )

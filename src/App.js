@@ -6,10 +6,10 @@ import Home from './Componnet/Home/Home'
 import Phones from './Componnet/PhoneItems/Phone'
 import Tv from './Componnet/TvItems/TvItem'
 import Signup from './Componnet/Singup/Signup'
-// import Card from './Componnet/Cart/Cart'
 import AddPhoneItem from './Componnet/AddItems/AddPhone'
 import AddTvItem from './Componnet/AddItems/AddTv'
 import Cart from './Componnet/Cart/Cart'
+import Footer from './Componnet/Footer/Footer'
 
 const App = () => {
   return (
@@ -21,24 +21,46 @@ const App = () => {
             <>
               <Header/>
               <Home/>
+              <Footer/>
             </>
           }/>
           <Route path='/phone' element={ 
           <>
             <Header/>
             <Phones/>
+            <Footer/>
           </> 
           }/>
           <Route path='/phone/:id' element={ 
           <>
             <Header/>
             <AddPhoneItem/>
+            <Footer/>
           </> 
           }/>
-          <Route path='/tv' element={ <Tv/> }/>
-          <Route path='/tv/:id' element={ <AddTvItem/> }/>
+          <Route path='/tv' element={ 
+             <>
+             <Header/>
+             <Tv/>
+             <Footer/>
+           </>
+           }/>
+          <Route path='/tv/:id' element={ 
+             <>
+             <Header/>
+             <AddTvItem/> 
+             <Footer/>
+           </>
+          }/>
           <Route path='/sign' element={ <Signup/> }/>
-          <Route path='/cart' element={<Cart/>}/> 
+          <Route path='/cart' element={
+          <>
+            <Header/>
+            <Cart/>
+            <Footer/>
+
+          </>
+         }/> 
         </Routes>
 
     </div>
