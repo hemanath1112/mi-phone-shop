@@ -22,10 +22,19 @@ const App = () => {
               <Header/>
               <Home/>
             </>
-      
           }/>
-          <Route path='/phone' element={ <Phones/> }/>
-          <Route path='/phone/:id' element={ <AddPhoneItem/> }/>
+          <Route path='/phone' element={ 
+          <>
+            <Header/>
+            <Phones/>
+          </> 
+          }/>
+          <Route path='/phone/:id' element={ 
+          <>
+            <Header/>
+            <AddPhoneItem/>
+          </> 
+          }/>
           <Route path='/tv' element={ <Tv/> }/>
           <Route path='/tv/:id' element={ <AddTvItem/> }/>
           <Route path='/sign' element={ <Signup/> }/>
