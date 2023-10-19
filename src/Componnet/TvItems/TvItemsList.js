@@ -1,11 +1,12 @@
 import React from 'react'
-import classes from './Phone.module.css'
+import classes from './TvItem.module.css'
 
-const PhoneItems = ({title, image,oldPrice,newPrice,offer}) => {
+const TvItemsList = ({title, image,oldPrice,newPrice,offer,discraption}) => {
   return (
     <div>
-        <div className={classes.PhoneItems}>
+         <div className={classes.TvItems}>
           <h1>{title}</h1>
+          <p className={classes.Discraption}>{discraption}</p>
           <p>From <span className={classes.NewPrice}>&#8377;{newPrice}</span><span className={classes.OldPrice}>&#8377;{oldPrice}</span></p>
           <div className={classes.Buttons}>
             <button className={classes.BuyNow}>Buy Now</button>
@@ -20,4 +21,4 @@ const PhoneItems = ({title, image,oldPrice,newPrice,offer}) => {
   )
 }
 
-export default PhoneItems
+export default TvItemsList

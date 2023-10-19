@@ -1,3 +1,170 @@
 .Tv{
     margin-top: 60px;
+    width: 100%;
+    background-color: rgb(240, 245, 245);
+}
+.TopImage{
+    position: relative;
+}
+.TopImage img{
+    width: 100%;
+    height: 400px;
+}
+.TopImageDetails{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    color: #fff;
+}
+.TopImageDetails h3{
+    font-weight: 500;
+    color: #fff;
+}
+
+.TopImageDetails h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+    
+}
+.BankOffer{
+    margin-bottom: 30px;
+    font-weight: 500 !important;
+}
+.TopImageDetails p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+.TopImageDetails p .NewPrice{
+    font-size: 22px;
+    margin-left: 10px;
+}
+.TopImageDetails p .OldPrice{
+    text-decoration: line-through;
+    font-weight: 400;
+    color: rgb(177, 178, 179);
+    margin-left: 10px;
+}
+.TopImageDetails .Buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 10px
+}
+.TopImageDetails .Buttons p{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.2s ease;
+}
+.TopImageDetails .Buttons p span{
+    display: flex;
+    align-items: center;
+}
+.TopImageDetails .Buttons button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.TopImageDetails .Buttons button:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.TopImageDetails .Buttons p:hover{
+    text-decoration: underline;
+}
+.PhoneRow{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+
+}
+.TvItems{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    margin: 20px 0px;
+}
+.TvItems:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.TvItems h1{
+    width: 400px;
+    font-weight: 500;
+    margin-top: 40px;
+ 
+}
+.TvItems .Discraption{
+    margin-bottom: 20px;
+    color: #8b8b8b;
+    font-size: 14px;
+}
+.TvItems p{
+    color: black;
+    font-weight: 500;
+}
+.TvItems p .NewPrice{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.TvItems p .OldPrice{
+    text-decoration: line-through;
+    color: rgb(129, 129, 129);
+}
+.TvItems .Buttons{
+    margin-top: 20px;
+}
+.TvItems .Buttons{
+   display: flex;
+   justify-content: space-evenly;
+   margin-bottom: 20px;
+}
+.TvItems .Buttons .BuyNow{
+    margin-right: 20px;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #fff;
+    background-color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+}
+.TvItems .Buttons .BuyNow:hover{
+    background-color: rgb(34, 33, 33);
+    border: 2px solid rgb(34, 33, 33);
+
+}
+.TvItems .Buttons .LearnMore{
+    padding: 8px 30px;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.TvItems .Buttons .LearnMore:hover{
+    color: rgb(83, 81, 81);
+    border: 2px solid  rgb(83, 81, 81);
+}
+.TvItems .Offer{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.TvItems .Offer button{
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 2px solid red;
+    color: red;
+    font-weight: 500;
 }
