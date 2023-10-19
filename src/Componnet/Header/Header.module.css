@@ -39,14 +39,24 @@
     font-weight: 600;
 
 }
-.LeftHeader p{
+.ListItem{
+    display: flex;
+}
+.ListItem li{
+    list-style: none;
+}
+.ListItem a{
+    margin-right: 20px;
     font-size: 18px;
     font-weight: 500;
     color: #000000;
 }
-.active{
+.ListItem a:hover{
     color: #d35400;
 }
+/* .ListItem a.active{
+    color: #d35400;
+} */
 .search{
     display: flex;
     align-items: center;
@@ -99,3 +109,4 @@
     font-size: 20px;
     font-weight: 600;
 }
+

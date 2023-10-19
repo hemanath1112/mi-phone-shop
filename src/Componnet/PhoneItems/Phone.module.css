@@ -1,3 +1,148 @@
 .Phones{
     margin-top: 60px;
+    width: 100%;
+    background-color: rgb(240, 245, 245);
+}
+.TopImage{
+    position: relative;
+}
+.TopImage img{
+    width: 100%;
+    height: 400px;
+}
+.TopImageDetails{
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+.TopImageDetails h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.TopImageDetails p{
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+}
+.TopImageDetails p .NewPrice{
+    font-size: 22px;
+    margin-left: 10px;
+}
+.TopImageDetails p .OldPrice{
+    text-decoration: line-through;
+    font-weight: 400;
+    color: rgb(177, 178, 179);
+    margin-left: 10px;
+}
+.TopImageDetails .Buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 5px
+}
+.TopImageDetails .Buttons p{
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.2s ease;
+}
+.TopImageDetails .Buttons button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.TopImageDetails .Buttons button:hover{
+    border: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+.TopImageDetails .Buttons p:hover{
+    text-decoration: underline;
+}
+.PhoneRow{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+
+}
+.PhoneItems{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    margin: 20px 0px;
+}
+.PhoneItems:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.PhoneItems h1{
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.PhoneItems p{
+    color: black;
+    font-weight: 500;
+}
+.PhoneItems p .NewPrice{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.PhoneItems p .OldPrice{
+    text-decoration: line-through;
+    color: rgb(186, 186, 189);
+}
+.PhoneItems .Buttons{
+    margin-top: 20px;
+}
+.PhoneItems .Buttons{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 20px;
+}
+.PhoneItems .Buttons .BuyNow{
+    margin-right: 20px;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #fff;
+    background-color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+
+}
+.PhoneItems .Buttons .BuyNow:hover{
+    background-color: rgb(34, 33, 33);
+    border: 2px solid rgb(34, 33, 33);
+
+}
+.PhoneItems .Buttons .LearnMore{
+    padding: 8px 30px;
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.PhoneItems .Buttons .LearnMore:hover{
+    color: rgb(83, 81, 81);
+    border: 2px solid  rgb(83, 81, 81);
+}
+.PhoneItems .Offer{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.PhoneItems .Offer button{
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: 2px solid red;
+    color: red;
+    font-weight: 500;
 }

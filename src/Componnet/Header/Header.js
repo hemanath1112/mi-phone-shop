@@ -19,14 +19,19 @@ const Header = () => {
             <h1>MI</h1>
           </div>
         </Link>
-         
-        <NavLink to={'/phone'}>
-          <p className={ActiveClass}>Phones</p>
+        
+        {/* <NavLink to={'/phone'} className={} >
+          <p >Phones</p>
         </NavLink>
 
-        <Link to={'/tv'}>
+        <NavLink to={'/tv'}>
           <p>Tv's</p>
-        </Link>
+        </NavLink> */}
+
+        <ul className={classes.ListItem}>
+        <NavLink to={'/phone'} className={ActiveClass}><li>Phones</li></NavLink>
+        <NavLink to={'/tv'} className={ActiveClass} ><li>Tv's</li> </NavLink>
+        </ul>
          
       </div>
       <div className={classes.RightHeader}>
