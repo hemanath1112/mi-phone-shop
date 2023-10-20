@@ -48,7 +48,28 @@ const TvItem = () => {
           oldPrice="25,999"
           offer="24%"
         />
-
+      </div>
+      <div className={classes.PhoneRow}>
+        <TvItemsList
+          id='4'
+          title="Xiaomi Smart TV X50 2023 Edition"
+          image="https://i03.appmifile.com/592_item_in/04/08/2023/f292eae10c29ca39ad756bff57394d55!256x256.png?f=webpp"
+          discraption='4K Dolby Vision | 30W Dolby Audio
+          First Time on Discount'
+          newPrice="30,999"
+          oldPrice="44,999"
+          offer="31%"
+        />
+         <TvItemsList
+          id='5'
+          title="Xiaomi OLED Vision TV 55"
+          image="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1650976094.42847806!256x256.jpg?f=webp"
+          discraption='
+          4K OLED | IMAX Enhanced'
+          newPrice="9,999"
+          oldPrice="24,999"
+          offer="60%"
+        />
       </div>
     </div>
   )

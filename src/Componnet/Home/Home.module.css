@@ -1,3 +1,25 @@
 .Home{
     margin-top: 60px;
+    width: 100%;
+}
+.HomeContent img{
+    width: 100%;
+    position: relative;
+}
+.Content{
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    width: 420px;
+}
+.Content p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.Content h1{
+    margin-bottom: 10px;
+}
+.BankOffer{
+    line-height: 25px;
+    margin-bottom: 10px;
 }

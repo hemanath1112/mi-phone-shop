@@ -19,14 +19,6 @@ const Header = () => {
             <h1>MI</h1>
           </div>
         </Link>
-        
-        {/* <NavLink to={'/phone'} className={} >
-          <p >Phones</p>
-        </NavLink>
-
-        <NavLink to={'/tv'}>
-          <p>Tv's</p>
-        </NavLink> */}
 
         <ul className={classes.ListItem}>
         <NavLink to={'/phone'} className={ActiveClass}><li>Phones</li></NavLink>
