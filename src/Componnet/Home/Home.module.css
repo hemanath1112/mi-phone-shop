@@ -13,7 +13,7 @@
     width: 420px;
 }
 .Content p{
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 400;
 }
 .Content h1{
@@ -21,5 +21,124 @@
 }
 .BankOffer{
     line-height: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    font-size: 22px !important;
+}
+.Amount{
+    font-size: 18px !important;
+}
+.NewPrice{
+    font-size: 23px !important;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.OldPrice{
+    text-decoration: line-through;
+    color: rgb(135, 136, 136);
+    font-weight: 500;
+}
+.Content .Buttons{
+    display: flex;
+    margin-top: 10px;
+}
+.Content .Buttons .BuyNow{
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    color: #fff;
+    background-color: black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s ease;
+ 
+}
+.Content .Buttons .BuyNow:hover{
+    background-color: rgb(34, 33, 33);
+    border: 2px solid rgb(34, 33, 33);
+ 
+}
+.Content .Buttons .LearnMore{
+    display: flex;
+    align-items: center;
+    padding: 8px 30px;
+    padding: 8px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+.Content .Buttons .LearnMore span{
+    display: flex;
+    align-items: center;
+}
+.Content .Buttons .LearnMore:hover{
+    color: rgb(83, 81, 81);
+    text-decoration: underline;
+}
+.HomeTvFirstRow{
+    margin: 30px;
+    text-align: center;
+}
+.HomeTvFirstRow h1{
+    font-weight: 500;
+    font-size: 25px;
+}
+.HomeTvFirstRow p{
+    font-weight: 500;
+    color: #6b6b6b;
+}
+.HomeSecontRow{
+    display: flex;
+    align-items: center;
+}
+.HomeTvImageRow{
+    width: 80%;
+    padding: 20px;
+    /* border: 2px solid black; */
+    margin: 30px 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.HomeTvImageRowOne{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.HomeTvImageRowOne .img{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+}
+.HomeTvImageRowOne .img:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+}
+.HomeTvImageRowOne .img p{
+    position: absolute;
+    top: 20;
+    font-weight: 500;
+    font-size: 12px;
+    color: red;
+    border: 1px solid red;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+.HomeTvImageRowOne .img h6{
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+.HomeTvImageRowOne img{
+    width: 200px;
+}
+.ShowMore,
+.ShowMore span{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.2s ease;
+    color: black;
+}
+.ShowMore:hover{
+    text-decoration: underline;
 }

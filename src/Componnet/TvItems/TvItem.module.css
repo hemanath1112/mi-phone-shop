@@ -122,12 +122,10 @@
     color: rgb(129, 129, 129);
 }
 .TvItems .Buttons{
-    margin-top: 20px;
-}
-.TvItems .Buttons{
    display: flex;
    justify-content: space-evenly;
    margin-bottom: 20px;
+   margin-top: 20px;
 }
 .TvItems .Buttons .BuyNow{
     margin-right: 20px;

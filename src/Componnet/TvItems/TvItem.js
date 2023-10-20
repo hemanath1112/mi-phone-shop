@@ -12,7 +12,7 @@ const TvItem = () => {
           <h3>4K. Your New Resolution.</h3>
           <h1>XIAOMI Smart TV X Series</h1>
           <p className={classes.BankOffer}>Up to &#8377;2,750 <sup>*</sup> Bank Offer</p>
-          <p>From <span className={classes.NewPrice}>&#8377;23,999</span> <span className={classes.OldPrice}>&#8377;42,999</span></p>
+          <p >From <span className={classes.NewPrice}>&#8377;23,999</span> <span className={classes.OldPrice}>&#8377;42,999</span></p>
           <div className={classes.Buttons}>
             <button>Buy Now</button>
             <p>Learn More <span><ChevronRightIcon/></span></p>

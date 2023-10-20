@@ -1,6 +1,7 @@
 import React from 'react'
 import classes from './Home.module.css'
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
+import HomeTvSection from './HomeTvSection';
 
 
 const Home = () => {
@@ -12,13 +13,14 @@ const Home = () => {
           <p>Dawn of a New age Camera</p>
           <h1>XIAOMI 13 Pro</h1>
           <p className={classes.BankOffer}>Special Exchange Bonus of Up to 5,000<sup>*</sup></p>
-          <p>From <span className={classes.NewPrice}>&#8377;23,999</span> <span className={classes.OldPrice}>&#8377;42,999</span></p>
+          <p className={classes.Amount} >From <span className={classes.NewPrice}>&#8377;23,999</span> <span className={classes.OldPrice}>&#8377;42,999</span></p>
           <div className={classes.Buttons}>
-            <button>Buy Now</button>
-            <p>Learn More <span><ChevronRightIcon/></span></p>
+            <button className={classes.BuyNow}>Buy Now</button>
+            <p className={classes.LearnMore}>Learn More<span><ChevronRightIcon/></span></p>
           </div>
         </div>
       </div>
+      <HomeTvSection/>
     </div>
   )
 }
